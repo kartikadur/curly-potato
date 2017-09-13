@@ -1,0 +1,71 @@
+{
+  "name": "curly-potato",
+  "version": "0.1.0",
+  "description": "D3 visualization",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./build",
+    "start": "webpack-dev-server --colors --env dev",
+    "build": "npm run clean && webpack --env prod",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikadur/curly-potato.git"
+  },
+  "keywords": [
+    "D3",
+    "webpack",
+    "javascript"
+  ],
+  "author": "kartik adur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kartikadur/curly-potato/issues"
+  },
+  "homepage": "https://github.com/kartikadur/curly-potato#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.5",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "jasmine-core": "^2.7.0",
+    "jasmine-sinon": "^0.4.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-sinon": "^1.0.5",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.4",
+    "mustache": "^2.3.0",
+    "node-sass": "^4.5.3",
+    "phantomjs-prebuilt": "^2.1.15",
+    "postcss-loader": "^2.0.6",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.6",
+    "sinon": "^3.2.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "d3": "^4.10.0",
+    "d3-queue": "^3.0.7",
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^7.0.0",
+    "rxjs": "^5.4.3"
+  }
+}
