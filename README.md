@@ -1,2 +1,2 @@
 # curly-potato
-D3 visualization
+Base framework for Vanilla Javascript
